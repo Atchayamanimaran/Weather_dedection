@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oleo+Script:wght@400;700&family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-repeat: no-repeat;
+    height: vh;
+    width: 100w;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:rgb(25, 183, 183); 
+    font-family: "Oswald", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/22/19/33/sea-1850228_1280.jpg");
+    background-size: cover;
+}
+
+h1{
+    margin-top: 68px;
+    font-size: 68px;
+}
+#button{
+    width: 168px;
+    height: 60px;
+    background: rgb(9, 128, 122);
+    color:black;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+}
+#button:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 2px lightsteelblue;
+}
+#country,#weather{
+    font-size:30px;
+    line-height: 38px;
+    color:black;
+}
+#weather{
+    font-size:25px;
+    line-height: 38px;
+    color:lightseagreen;
+}
